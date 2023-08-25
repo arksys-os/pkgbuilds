@@ -1,0 +1,20 @@
+[Desktop Entry]
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;System;
+StartupNotify=false
+Name=ArkSys Hello
+Exec=/usr/bin/arksys-welcome
+Icon=org.arksys.welcome
+Comment=A tool providing access to documentation and support for new ArkSys users.
+Comment[da]=En app med adgang til dokumentation og support for nye ArkSys brugere.
+Comment[de]=Ein Tool für schnellen Zugriff auf Support und Dokumentation für neue ArkSys-Nutzer.
+Comment[es]=Una herramienta que provee acceso a la documentación y soporte para nuevos usuarios de ArkSys.
+Comment[fr]=Outil d'accès à la documentation et support aux nouveaux utilisateurs de ArkSys.
+Comment[nl]=Een manier voor nieuwe ArkSys gebruikers om toegang tot documentatie en support te krijgen.
+Comment[pl]=Narzędzie ułatwiające dostęp do dokumentacji i pomocy przeznaczone dla nowych użytkowników ArkSys.
+Comment[pt_BR]=Uma ferramenta que fornece acesso à documentação e suporte para novos usuários ArkSys.
+Comment[pt_PT]=Uma ferramenta que fornece acesso à documentação e suporte para novos usuários ArkSys.
+Comment[ru]=Средство доступа к документации и поддержке для новых пользователей ArkSys.
+Comment[it]=Strumento per accedere alla documentazione e supporto per nuovi utenti ArkSys.
+Comment[tr]=Yeni ArkSys kullanıcıları için dökümantasyon ve destek sağlayan bir araç.

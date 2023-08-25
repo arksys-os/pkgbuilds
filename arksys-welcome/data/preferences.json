@@ -1,0 +1,17 @@
+{
+    "default_locale": "en",
+    "autostart_path": "~/.config/autostart/arksys-welcome.desktop",
+    "data_path": "/usr/share/arksys-welcome/data/",
+    "desktop_path": "/usr/share/applications/arksys-welcome.desktop",
+    "installer_path": "/usr/bin/calamares",
+    "live_path": "/run/archiso/airootfs",
+    "locale_path": "/usr/share/locale/",
+    "logo_path": "/usr/share/icons/hicolor/scalable/apps/",
+    "save_path": "~/.config/arksys-welcome.json",
+    "ui_path": "/usr/share/arksys-welcome/ui/arksys-welcome.glade",
+    "style_path": "/usr/share/arksys-welcome/ui/style.css",
+    "urls": {
+        "development": "https://github.com/arksys-os",
+        "website": "https://github.com/arksys-os/"
+    }
+}

@@ -1,0 +1,20 @@
+<big>CachyOS 22.07</big>
+
+<big>Features:</big>
+
+- Auswahl des Boot-Loaders: Der Benutzer kann nun bei der Online-Installation zwischen grub und systemd-boot wählen
+- Bei der Online-Installation wird nun immer das neueste Calamares installiert, was hilft, Fehlerbehebungen "on the air" durchzuführen
+- Calamares hat jetzt ein mhwd-Modul, das automatisch die benötigten Treiber installiert (freie Treiber)
+- Calamares hat neue Bildfolien bei der Installation
+- fstab und zfs mount Optionen wurden aktualisiert
+- HiDPI-Unterstützung
+
+<big>Fehlerbehebungen:</big>
+
+- Der Locales-Bug in Calamares wurde behoben
+- F2FS wurde für den Grub-Bootloader entfernt, da es derzeit nicht funktioniert (Calamares-Problem), es kann aber weiterhin mit systemd-boot verwendet werden
+- Calamares zeigt nun das korrekte Standard-Dateisystem an
+- Gnome ISO wurde korrigiert
+- Fehlende Pakete im Live-ISO wurden für die Offline-Installation hinzugefügt
+- btrfs swap luksencryption wurde behoben
+- übliche Übersetzungskorrekturen

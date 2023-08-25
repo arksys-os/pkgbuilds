@@ -1,0 +1,7 @@
+#######################################################
+
+# Host on GitHub
+#Server = https://github.com/arksys-os/$repo/blob/main/$arch
+
+# Same as above but from GitHub Pages
+Server = https://arksys-os.github.io/$repo/$arch

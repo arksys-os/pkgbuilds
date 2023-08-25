@@ -1,0 +1,1110 @@
+[
+    {
+        "name": "Additional Kernels",
+        "icon": "kernel",
+        "description": "Web browsing and communication",
+        "apps": [
+            {
+                "name": "Linux Hardened",
+                "icon": "kernel",
+                "description": "The Linux Hardened Kernel.",
+                "pkg": "linux-hardened",
+                "extra": ["linux-hardened-headers"]
+            },
+            {
+                "name": "Linux LTS",
+                "icon": "kernel",
+                "description": "Dynamic",
+                "pkg": "linux-lts",
+                "extra": ["linux-lts-headers"]
+            },
+            {
+                "name": "Linux Zen",
+                "icon": "kernel",
+                "description": "Dynamic",
+                "pkg": "linux-zen",
+                "extra": ["linux-zen-headers"]
+            }
+        ]
+    },
+    {
+        "name": "Android Tools",
+        "icon": "anbox",
+        "description": "Various tools for Android",
+        "apps": [
+            {
+                "name": "Android Tools",
+                "icon": "usbimager",
+                "description": "Dynamic.",
+                "pkg": "android-tools",
+                "extra": []
+            },
+            {
+                "name": "Android File Transfer",
+                "icon": "android-file-transfer",
+                "description": "Dynamic",
+                "pkg": "android-file-transfer",
+                "extra": []
+            },
+            {
+                "name": "Airdroid",
+                "icon": "android-package-archive",
+                "description": "Dynamic",
+                "pkg": "airdroid-nativefier",
+                "extra": []
+            },
+            {
+                "name": "Android SDK Tools",
+                "icon": "androidstudio",
+                "description": "Dynamic",
+                "pkg": "android-sdk-platform-tools",
+                "extra": []
+            },
+            {
+                "name": "Droid Cam",
+                "icon": "androidstudio",
+                "description": "Dynamic",
+                "pkg": "droidcam",
+                "extra": []
+            },
+            {
+                "name": "QT-SCRCPY",
+                "icon": "camera-web",
+                "description": "Dynamic",
+                "pkg": "qtscrcpy",
+                "extra": ["scrcpy"]
+            },
+            {
+                "name": "Universal Android Debloater",
+                "icon": "androidstudio",
+                "description": "Dynamic",
+                "pkg": "universal-android-debloater-bin",
+                "extra": []
+            },
+            {
+                "name": "WayDroid (Wayland Only!)",
+                "icon": "android-file-transfer",
+                "description": "Dynamic",
+                "pkg": "waydroid",
+                "extra": ["waydroid-settings"]
+            }
+        ]
+    },
+    {
+        "name": "Audio Tools",
+        "icon": "audio-headset",
+        "description": "Various Audio Tools",
+        "apps": [
+            {
+                "name": "Amarok",
+                "icon": "amarok",
+                "description": "Dynamic",
+                "pkg": "amarok",
+                "extra": []
+            },
+            {
+                "name": "Glava",
+                "icon": "music_icon-24",
+                "description": "Dynamic",
+                "pkg": "glava",
+                "extra": []
+            },
+            {
+                "name": "James DSP",
+                "icon": "lxmusic",
+                "description": "Dynamic",
+                "pkg": "jamesdsp",
+                "extra": []
+            },
+            {
+                "name": "KWave",
+                "icon": "kwave",
+                "description": "Dynamic",
+                "pkg": "kwave",
+                "extra": []
+            },
+            {
+                "name": "Noisetorch",
+                "icon": "noise",
+                "description": "Dynamic",
+                "pkg": "noisetorch",
+                "extra": []
+            },
+            {
+                "name": "Ocen Audio",
+                "icon": "noise",
+                "description": "Dynamic",
+                "pkg": "ocenaudio-bin",
+                "extra": []
+            },
+            {
+                "name": "Olivia",
+                "icon": "lxmusic",
+                "description": "Dynamic",
+                "pkg": "olivia",
+                "extra": []
+            },
+            {
+                "name": "OpenLP",
+                "icon": "lxmusic",
+                "description": "Dynamic",
+                "pkg": "openlp",
+                "extra": []
+            },
+            {
+                "name": "Radiotray",
+                "icon": "radiotray_on",
+                "description": "Dynamic",
+                "pkg": "radiotray",
+                "extra": []
+            },
+            {
+                "name": "Sayonara Player",
+                "icon": "audio-player",
+                "description": "Dynamic",
+                "pkg": "sayonara-player",
+                "extra": []
+            },
+            {
+                "name": "Spotify w/ Adblocker",
+                "icon": "spotify",
+                "description": "Dynamic",
+                "pkg": "spotify-adblock",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Benchmarking",
+        "icon": "sysprof-calgraph",
+        "description": "Benchmarking Tools",
+        "apps": [
+            {
+                "name": "Blender Benchmark",
+                "icon": "blender",
+                "description": "Dynamic",
+                "pkg": "blender-benchmark",
+                "extra": []
+            },
+            {
+                "name": "Geekbench",
+                "icon": "libreoffice-main",
+                "description": "Dynamic",
+                "pkg": "geekbench",
+                "extra": []
+            },
+            {
+                "name": "GPU Test",
+                "icon": "indicator-sensors-gpu",
+                "description": "Dynamic",
+                "pkg": "gputest",
+                "extra": []
+            },
+            {
+                "name": "Phoronix Test Suite",
+                "icon": "blackmagicraw-speedtest",
+                "description": "Dynamic",
+                "pkg": "phoronix-test-suite",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Backup Tools",
+        "icon": "disks",
+        "description": "Tools For Backing up",
+        "apps": [
+            {
+                "name": "BTRFS Snapper",
+                "icon": "deja-dup",
+                "description": "Dynamic",
+                "pkg": "btrfs-assistant",
+                "extra": ["btrfs-du","snapper-gui-git","snapper-support","btrfsmaintenance"]
+            },
+            {
+                "name": "BTRFS Timeshift",
+                "icon": "timeshift",
+                "description": "Dynamic",
+                "pkg": "timeshift-support",
+                "extra": []
+            },
+            {
+                "name": "Deja-Dup (GTK)",
+                "icon": "deja-dup",
+                "description": "Dynamic",
+                "pkg": "deja-dup",
+                "extra": []
+            },
+            {
+                "name": "KBackup (KDE)",
+                "icon": "kbackup",
+                "description": "Dynamic",
+                "pkg": "kbackup",
+                "extra": []
+            },
+            {
+                "name": "TimeShift (EXT4/XFS)",
+                "icon": "timeshift",
+                "description": "Dynamic",
+                "pkg": "timeshift",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Development Tools",
+        "icon": "text-editor",
+        "description": "Various editors for text or code",
+        "apps": [
+            {
+                "name": "Gammaray",
+                "icon": "codeblocks",
+                "description": "Dynamic",
+                "pkg": "gammaray",
+                "extra": []
+            },
+            {
+                "name": "Gitfiend",
+                "icon": "retext",
+                "description": "Dynamic",
+                "pkg": "gitfiend",
+                "extra": []
+            },
+            {
+                "name": "Guvcview",
+                "icon": "guvcview",
+                "description": "Dynamic",
+                "pkg": "guvcview-qt",
+                "extra": []
+            },
+            {
+                "name": "Hugo",
+                "icon": "webide",
+                "description": "Dynamic",
+                "pkg": "hugo",
+                "extra": []
+            },
+            {
+                "name": "Sublime Text",
+                "icon": "sublime",
+                "description": "Dynamic",
+                "pkg": "sublime-text-4",
+                "extra": []
+            },
+            {
+                "name": "Vim Incl Addons",
+                "icon": "vim",
+                "description": "Dynamic",
+                "pkg": "vim",
+                "extra": ["neovim-qt","vim-runtime"]
+            }
+        ]
+    },
+    {
+        "name": "Disk & USB Tools",
+        "icon": "multibootusb",
+        "description": "USB & CD/DVD Tools",
+        "apps": [
+            {
+                "name": "Brasero",
+                "icon": "brasero",
+                "description": "Dynamic",
+                "pkg": "brasero",
+                "extra": []
+            },
+            {
+                "name": "Baobab",
+                "icon": "baobab",
+                "description": "Dynamic",
+                "pkg": "baobab",
+                "extra": []
+            },
+            {
+                "name": "GParted",
+                "icon": "gparted",
+                "description": "Dynamic",
+                "pkg": "gparted",
+                "extra": []
+            },
+            {
+                "name": "Balena Etcher",
+                "icon": "etcher",
+                "description": "Dynamic",
+                "pkg": "etcher-bin",
+                "extra": []
+            },
+            {
+                "name": "Ventoy",
+                "icon": "liveusb-creator",
+                "description": "Dynamic",
+                "pkg": "ventoy-bin",
+                "extra": []
+            },
+            {
+                "name": "WoeUSB",
+                "icon": "woeusbgui-icon",
+                "description": "Dynamic",
+                "pkg": "woeusb-ng",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Gaming Tools",
+        "icon": "applications-games",
+        "description": "Various Game Launchers",
+        "apps": [
+            {
+                "name": "Gamemode",
+                "icon": "offgame",
+                "description": "Dynamic",
+                "pkg": "gamemode",
+                "extra": []
+            },
+            {
+                "name": "Goverlay",
+                "icon": "goverlay",
+                "description": "Dynamic",
+                "pkg": "goverlay-bin",
+                "extra": []
+            },
+
+            {
+                "name": "Mangohud",
+                "icon": "help-info",
+                "description": "Dynamic",
+                "pkg": "mangohud",
+                "extra": []
+            },
+            {
+                "name": "Steam Native",
+                "icon": "steam",
+                "description": "Dynamic",
+                "pkg": "steam-native-runtime",
+                "extra": []
+            },
+            {
+                "name": "T-Launcher",
+                "icon": "tlauncher",
+                "description": "Dynamic",
+                "pkg": "tlauncher",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Graphics Creating",
+        "icon": "applications-graphics",
+        "description": "Creating and editing graphics",
+        "apps": [
+            {
+                "name": "Flameshot",
+                "icon": "flameshot",
+                "description": "Dynamic",
+                "pkg": "flameshot",
+                "extra": []
+            },
+            {
+                "name": "Inkscape",
+                "icon": "inkscape",
+                "description": "Dynamic",
+                "pkg": "inkscape",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Internet Browsers",
+        "icon": "applications-internet",
+        "description": "Browsers",
+        "apps": [
+            {
+                "name": "Mercury Browser",
+                "icon": "net.xmind.XMind",
+                "description": "Dynamic",
+                "pkg": "mercury-browser-bin",
+                "extra": []
+            },
+            {
+                "name": "Mullvad Browser",
+                "icon": "net.xmind.XMind",
+                "description": "Dynamic",
+                "pkg": "mullvad-browser-bin",
+                "extra": []
+            },
+            {
+                "name": "Netsurf",
+                "icon": "net.xmind.XMind",
+                "description": "Dynamic",
+                "pkg": "netsurf",
+                "extra": []
+            },
+            {
+                "name": "Opera",
+                "icon": "opera",
+                "description": "Dynamic",
+                "pkg": "opera",
+                "extra": ["opera-ffmpeg-codecs"]
+            },
+            {
+                "name": "Vivaldi",
+                "icon": "vivaldi",
+                "description": "Dynamic",
+                "pkg": "vivaldi",
+                "extra": ["vivaldi-ffmpeg-codecs","vivaldi-widevine"]
+            },
+            {
+                "name": "Waterfox G5",
+                "icon": "waterfox",
+                "description": "Dynamic",
+                "pkg": "waterfox-g-bin",
+                "extra": []
+            },
+            {
+                "name": "Webapp Manager",
+                "icon": "webapp-manager",
+                "description": "Dynamic",
+                "pkg": "webapp-manager",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Internet Downloaders",
+        "icon": "applications-internet",
+        "description": "Downloaders",
+        "apps": [
+            {
+                "name": "Deluge",
+                "icon": "deluge",
+                "description": "Dynamic",
+                "pkg": "deluge",
+                "extra": []
+            },
+            {
+                "name": "Fragments",
+                "icon": "fragments",
+                "description": "Dynamic",
+                "pkg": "fragments",
+                "extra": []
+            },
+            {
+                "name": "Free Download Manager",
+                "icon": "download",
+                "description": "Dynamic",
+                "pkg": "freedownloadmanager",
+                "extra": []
+            },
+            {
+                "name": "Ktorrent",
+                "icon": "ktorrent",
+                "description": "Dynamic",
+                "pkg": "ktorrent",
+                "extra": []
+            },
+            {
+                "name": "Nitroshare",
+                "icon": "neversong",
+                "description": "Dynamic",
+                "pkg": "nitroshare",
+                "extra": []
+            },
+            {
+                "name": "Persepolis",
+                "icon": "persepolis",
+                "description": "Dynamic",
+                "pkg": "persepolis",
+                "extra": []
+            },
+            {
+                "name": "RClone",
+                "icon": "googledrive",
+                "description": "Dynamic",
+                "pkg": "rclone",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Internet Mail",
+        "icon": "kmail",
+        "description": "Email",
+        "apps": [
+            {
+                "name": "Blue Mail",
+                "icon": "kmail",
+                "description": "Dynamic",
+                "pkg": "bluemail",
+                "extra": []
+            },
+            {
+                "name": "KMail",
+                "icon": "kmail",
+                "description": "Dynamic",
+                "pkg": "kmail",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Internet Social",
+        "icon": "signal",
+        "description": "Social",
+        "apps": [
+            {
+                "name": "Koversation IRC",
+                "icon": "konversation",
+                "description": "Dynamic",
+                "pkg": "konversation",
+                "extra": []
+            },
+            {
+                "name": "Sengi for Mastodon",
+                "icon": "signal",
+                "description": "Dynamic",
+                "pkg": "sengi-appimage",
+                "extra": []
+            },
+            {
+                "name": "SimpleX Chat CLI",
+                "icon": "signal",
+                "description": "Dynamic",
+                "pkg": "simplex-chat-bin",
+                "extra": []
+            },
+            {
+                "name": "Whalebird",
+                "icon": "signal",
+                "description": "Dynamic",
+                "pkg": "whalebird-bin",
+                "extra": []
+            }
+
+        ]
+    },
+    {
+        "name": "Office Tools",
+        "icon": "libreoffice-main",
+        "description": "Best Office Suites",
+        "apps": [
+            {
+                "name": "Libre Office Fresh",
+                "icon": "libreoffice-main",
+                "description": "Dynamic",
+                "pkg": "libreoffice-fresh",
+                "extra": ["hunspell-en_us"]
+            },
+            {
+                "name": "Free Office",
+                "icon": "libreoffice-main",
+                "description": "Dynamic",
+                "pkg": "freeoffice",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Package Managers",
+        "icon": "pamac",
+        "description": "Alternative Package Managers",
+        "apps": [
+            {
+                "name": "Amethyst AUR Helper",
+                "icon": "beagled",
+                "description": "Dynamic",
+                "pkg": "ame",
+                "extra": []
+            },
+            {
+                "name": "AppImage Launcher",
+                "icon": "beagled",
+                "description": "Dynamic",
+                "pkg": "appimagelauncher",
+                "extra": []
+            },
+            {
+                "name": "Aura",
+                "icon": "beagled",
+                "description": "Dynamic",
+                "pkg": "aura-bin",
+                "extra": []
+            },
+            {
+                "name": "Bauh",
+                "icon": "bauh",
+                "description": "Dynamic",
+                "pkg": "bauh",
+                "extra": []
+            },
+            {
+                "name": "Discover",
+                "icon": "org.kde.discover",
+                "description": "Dynamic",
+                "pkg": "discover",
+                "extra": []
+            },
+            {
+                "name": "Kalu KDE",
+                "icon": "plasma",
+                "description": "Dynamic",
+                "pkg": "kalu-kde",
+                "extra": []
+            },
+            {
+                "name": "Octopi",
+                "icon": "octopi",
+                "description": "Dynamic",
+                "pkg": "octopi",
+                "extra": ["alpm_octopi_utils","octopi-notifier-qt5"]
+            },
+            {
+                "name": "Paru",
+                "icon": "konsole",
+                "description": "Dynamic",
+                "pkg": "paru-bin",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Power Management",
+        "icon": "cpu",
+        "description": "Control Laptop Power Usage",
+        "apps": [
+            {
+                "name": "Auto CPU Freq",
+                "icon": "cpuinfo",
+                "description": "Dynamic",
+                "pkg": "auto-cpufreq",
+                "extra": []
+            },
+            {
+                "name": "CPU Power",
+                "icon": "cpu",
+                "description": "Dynamic",
+                "pkg": "cpupower",
+                "extra": []
+            },
+            {
+                "name": "System76 Power",
+                "icon": "system76-driver",
+                "description": "Dynamic",
+                "pkg": "system76-power",
+                "extra": []
+            },
+            {
+                "name": "TLP",
+                "icon": "battery",
+                "description": "Dynamic",
+                "pkg": "tlp",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Remote Desktop",
+        "icon": "remote-desktop",
+        "description": "Remote Desktop Tools",
+        "apps": [
+            {
+                "name": "AnyDesk",
+                "icon": "barrier",
+                "description": "Dynamic",
+                "pkg": "anydesk-bin",
+                "extra": []
+            },
+            {
+                "name": "Barrier",
+                "icon": "barrier",
+                "description": "Dynamic",
+                "pkg": "barrier",
+                "extra": []
+            },
+            {
+                "name": "No Machine",
+                "icon": "remmina",
+                "description": "Dynamic",
+                "pkg": "nomachine",
+                "extra": []
+            },
+            {
+                "name": "RealVNC Server",
+                "icon": "remote-desktop",
+                "description": "Dynamic",
+                "pkg": "realvnc-vnc-server",
+                "extra": ["realvnc-vnc-viewer"]
+            },
+            {
+                "name": "TeamViewer",
+                "icon": "teamviewer",
+                "description": "Dynamic",
+                "pkg": "teamviewer",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Ricing",
+        "icon": "theme-config",
+        "description": "Tools That Will Help With Ricing",
+        "apps": [
+            {
+                "name": "KonSave",
+                "icon": "terminal",
+                "description": "Dynamic",
+                "pkg": "konsave",
+                "extra": []
+            },
+            {
+                "name": "Variety",
+                "icon": "wallpaper",
+                "description": "Dynamic",
+                "pkg": "variety",
+                "extra": []
+            },
+            {
+                "name": "Wallpaper Engine Plugin",
+                "icon": "desktop",
+                "description": "Dynamic",
+                "pkg": "wallpaper-engine-plasma",
+                "extra": []
+            },
+            {
+                "name": "XScreensaver",
+                "icon": "screensaver",
+                "description": "Dynamic",
+                "pkg": "xscreensaver",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "System Utilities",
+        "icon": "applications-system",
+        "description": "Various System Utilities",
+        "apps": [
+            {
+                "name": "Albert",
+                "icon": "search",
+                "description": "Dynamic",
+                "pkg": "albert",
+                "extra": []
+            },
+            {
+                "name": "Caffeine",
+                "icon": "caffeine",
+                "description": "Dynamic",
+                "pkg": "caffeine-ng",
+                "extra": []
+            },
+            {
+                "name": "Core Control",
+                "icon": "system-error",
+                "description": "Dynamic",
+                "pkg": "corectrl",
+                "extra": []
+            },
+            {
+                "name": "Corsair Drivers",
+                "icon": "system-error",
+                "description": "Dynamic",
+                "pkg": "ckb-next",
+                "extra": []
+            },
+            {
+                "name": "CPU-X",
+                "icon": "cpu-x",
+                "description": "Dynamic",
+                "pkg": "cpu-x",
+                "extra": []
+            },
+            {
+                "name": "Docker",
+                "icon": "dnfdragora",
+                "description": "Dynamic",
+                "pkg": "docker",
+                "extra": ["docker-buildx","docker-compose","docker-machine","python-docker"]
+            },
+            {
+                "name": "Fan Control GUI",
+                "icon": "control-center2",
+                "description": "Dynamic",
+                "pkg": "fancontrol-gui",
+                "extra": []
+            },
+            {
+                "name": "Mouse Tweaks",
+                "icon": "mouse",
+                "description": "Dynamic",
+                "pkg": "mousetweaks",
+                "extra": []
+            },
+            {
+                "name": "Open Razer",
+                "icon": "mouse",
+                "description": "Dynamic",
+                "pkg": "openrazer-meta",
+                "extra": []
+            },
+            {
+                "name": "PuTTY",
+                "icon": "putty",
+                "description": "Dynamic",
+                "pkg": "putty",
+                "extra": []
+            },
+            {
+                "name": "Radeon Control",
+                "icon": "red_glasses",
+                "description": "Dynamic",
+                "pkg": "radeontool",
+                "extra": []
+            },
+            {
+                "name": "Solaar (Logitech)",
+                "icon": "mouse",
+                "description": "Dynamic",
+                "pkg": "solaar",
+                "extra": []
+            },
+            {
+                "name": "WiNE",
+                "icon": "wine",
+                "description": "Dynamic",
+                "pkg": "wine-meta",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Terminal Emulators",
+        "icon": "terminix",
+        "description": "Extra Terminal Emulators",
+        "apps": [
+            {
+                "name": "Alacritty",
+                "icon": "alacritty",
+                "description": "Dynamic",
+                "pkg": "alacritty",
+                "extra": ["alacritty-themes"]
+            },
+            {
+                "name": "Cool Retro Term",
+                "icon": "terminal",
+                "description": "Dynamic.",
+                "pkg": "cool-retro-term",
+                "extra": []
+            },
+            {
+                "name": "GNOME Terminal",
+                "icon": "terminal",
+                "description": "GNOME Terminal With Transparency.",
+                "pkg": "gnome-terminal-transparency",
+                "extra": []
+            },
+            {
+                "name": "Tabby Tabbed Terminal",
+                "icon": "terminal",
+                "description": "Dynamic",
+                "pkg": "tabby-bin",
+                "extra": []
+            },
+            {
+                "name": "Tilix",
+                "icon": "terminal",
+                "description": "Dynamic",
+                "pkg": "tilix",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Terminal Utilities",
+        "icon": "terminix",
+        "description": "Tools that run in Terminal",
+        "apps": [
+            {
+                "name": "Bash Pipes",
+                "icon": "bash",
+                "description": "Dynamic",
+                "pkg": "bash-pipes",
+                "extra": []
+            },
+            {
+                "name": "Btop",
+                "icon": "btop",
+                "description": "Dynamic",
+                "pkg": "btop",
+                "extra": []
+            },
+            {
+                "name": "Cava",
+                "icon": "music",
+                "description": "Dynamic",
+                "pkg": "cava",
+                "extra": []
+            },
+            {
+                "name": "CPU Fetch",
+                "icon": "cpuinfo",
+                "description": "Dynamic",
+                "pkg": "cpufetch",
+                "extra": []
+            },
+            {
+                "name": "CPU-ID",
+                "icon": "cpuinfo",
+                "description": "Dynamic",
+                "pkg": "cpuid",
+                "extra": []
+            },
+            {
+                "name": "FM-6000",
+                "icon": "termius",
+                "description": "Dynamic",
+                "pkg": "fm6000",
+                "extra": []
+            },
+            {
+                "name": "Gotop",
+                "icon": "btop",
+                "description": "Dynamic",
+                "pkg": "gotop",
+                "extra": []
+            },
+            {
+                "name": "Neo Matrix",
+                "icon": "maui-station",
+                "description": "Dynamic",
+                "pkg": "neo-matrix",
+                "extra": ["cmatrix"]
+            },
+            {
+                "name": "nVtop",
+                "icon": "nvclock",
+                "description": "Dynamic",
+                "pkg": "nvtop",
+                "extra": []
+            },
+            {
+                "name": "TTY Clock",
+                "icon": "clock",
+                "description": "Dynamic",
+                "pkg": "tty-clock-git",
+                "extra": []
+            },
+            {
+                "name": "WTTR (Terminal Weather)",
+                "icon": "weather",
+                "description": "Dynamic",
+                "pkg": "wttr",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Video Tools",
+        "icon": "video",
+        "description": "Various Video Tools",
+        "apps": [
+            {
+                "name": "Baka Media Player",
+                "icon": "mplayer",
+                "description": "Dynamic",
+                "pkg": "baka-mplayer",
+                "extra": []
+            },
+            {
+                "name": "Hypnotix",
+                "icon": "video",
+                "description": "Dynamic",
+                "pkg": "hypnotix",
+                "extra": []
+            },
+            {
+                "name": "Jellyfin Complete",
+                "icon": "mediacontrol",
+                "description": "Dynamic",
+                "pkg": "jellyfin-bin",
+                "extra": ["jellyfin-server-bin","jellyfin-web-bin","jellyfin-ffmpeg5-bin","mopidy-jellyfin"]
+            },
+            {
+                "name": "Media Downloader",
+                "icon": "youtube",
+                "description": "Dynamic",
+                "pkg": "media-downloader",
+                "extra": ["yt-dlp","aria2","aria2cd"]
+            },
+            {
+                "name": "Mystiq",
+                "icon": "mystiq",
+                "description": "Dynamic",
+                "pkg": "mystiq",
+                "extra": []
+            },
+            {
+                "name": "Plex Media Server",
+                "icon": "pnmixer",
+                "description": "Dynamic",
+                "pkg": "plex-media-server",
+                "extra": ["plex-media-player"]
+            },
+            {
+                "name": "Simple Screen Recorder",
+                "icon": "simplescreenrecorder",
+                "description": "Dynamic",
+                "pkg": "simplescreenrecorder",
+                "extra": []
+            },
+            {
+                "name": "Twitch DL",
+                "icon": "tvtime",
+                "description": "Dynamic",
+                "pkg": "twitch-dl-bin",
+                "extra": []
+            }
+        ]
+    },
+    {
+        "name": "Virtualization",
+        "icon": "virtualbox",
+        "description": "Various Virtualization Utilities",
+        "apps": [
+            {
+                "name": "Gnome Boxes",
+                "icon": "virtualbox",
+                "description": "Dynamic",
+                "pkg": "gnome-boxes",
+                "extra": []
+            },
+            {
+                "name": "QuickEmu Incl. QuickGUI",
+                "icon": "virtualbox",
+                "description": "Dynamic",
+                "pkg": "quickemu",
+                "extra": ["quickgui-bin"]
+            },
+            {
+                "name": "Virt-Manager",
+                "icon": "virt-manager",
+                "description": "Dynamic",
+                "pkg": "virt-manager-meta",
+                "extra": []
+            },
+            {
+                "name": "VirtualBox",
+                "icon": "virtualbox",
+                "description": "Dynamic",
+                "pkg": "virtualbox-meta",
+                "extra": []
+            },
+            {
+                "name": "VMWare Workstation",
+                "icon": "virtualbox",
+                "description": "Dynamic",
+                "pkg": "vmware-workstation",
+                "extra": ["vmware-keymaps","vmware-unlocker-bin"]
+            }
+        ]
+    }
+]
