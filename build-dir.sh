@@ -1,7 +1,19 @@
 #!/bin/bash
 
-# List of available folders to choose from
-folders=("arcolinux-calamares-3.3.0-alpha6-01" "arksys-calamares-config" "arksys-calamares-v3.2.62" "arksys-calamares-v3.3.0.alpha6" "arksys-mirrorlist" "arksys-welcome" "eaglemode")
+# Initialize an empty array to store folder names
+folders=()
+
+# Loop through each directory in the current directory
+for dir in */ # This pattern matches all directories
+do
+    # Remove the trailing slash to get the folder name
+    folder_name=${dir%*/}
+
+    # Exclude directories that start with a dot
+    if [[ $folder_name != .* ]]; then
+        folders+=("$folder_name")
+    fi
+done
 
 # Display the available folders for selection
 echo "Select a folder:"

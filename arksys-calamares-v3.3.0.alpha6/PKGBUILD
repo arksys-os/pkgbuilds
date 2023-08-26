@@ -1,4 +1,4 @@
-#https://github.com/calamares/calamares/releases
+# Based on https://github.com/arcolinux/arcolinux-pkgbuild-calamares/tree/master/arco-calamares-3.3.0-alpha6-01
 
 pkgname=arksys-calamares
 _pkgname=calamares
@@ -40,7 +40,7 @@ sha256sums=('5b8792d0e91ee7ae889d4e3f1f67b3626279b677527b0211b4304d786f9847a4'
 
 prepare() {
 
-	cp -rv ../modules/* ${srcdir}/$_pkgname-${pkgver}/src/modules/
+	cp -rv ../modules/* ${srcdir}/${_pkgname}-${pkgver}/src/modules/
 
 	sed -i -e 's/"Install configuration files" OFF/"Install configuration files" ON/' "$srcdir/${_pkgname}-${pkgver}/CMakeLists.txt"
 	sed -i -e 's/# DEBUG_FILESYSTEMS/DEBUG_FILESYSTEMS/' "$srcdir/${_pkgname}-${pkgver}/CMakeLists.txt"
@@ -80,5 +80,5 @@ package() {
 	install -Dm644 "$srcdir/calamares.desktop" "$pkgdir/usr/share/applications/calamares.desktop"
 	install -Dm644 "$srcdir/calamares-debugging.desktop" "$pkgdir/usr/share/applications/calamares-debugging.desktop"
 	install -Dm755 "$srcdir/calamares_polkit" "$pkgdir/usr/bin/calamares_polkit"
-	rm "$pkgdir/usr/share/applications/calamares.desktop"
+	#rm "$pkgdir/usr/share/applications/calamares.desktop"
 }
