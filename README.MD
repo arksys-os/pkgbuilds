@@ -4,18 +4,17 @@ The PKGBUILD is the configuration to build arch packages "name-version.pkg.tar.g
 
 To build the app you need to run `makepkg` inside the directory that contains the PKGBUILD. You can also run the script `build.sh` in the correspondent PKGBUILD directory.
 
-> ![note] If you use source from local files the PKGBUILD need to be updated manually.
+> [!IMPORTANT] If you use source from local files the PKGBUILD need to be updated manually.
+> You must use source from online repository to auto-update with pacman.
 
-> ![note] You must use source from online repository to auto-update with pacman.
+## Arksys Calamares v3.3.0.alpha6
+Calamares app for version 3.3.0.alpha6 used for Arksys-ISO.
 
-## Arksys Calamares v3.3.0
-Calamares app for version 3.3.0, used for Arksys-ISO
+Based on [ArcoLinux-pkgbuild-calamares version git](https://github.com/arcolinux/arcolinux-pkgbuild-calamares/tree/master/arco-calamares-3.3.0-alpha6-01)
 
-Based on [ArcoLinux-pkgbuild-calamares version git](https://github.com/arcolinux/arcolinux-pkgbuild-calamares/tree/master/arco-calamares-git)
+Source from online repo: https://github.com/erikdubois/calamares/archive/refs/tags/3.3.0.alpha6.tar.gz
 
-Source from online repo: https://github.com/erikdubois/calamares
-
-## Arksys Calamares v3.2.62
+## Arksys Calamares v3.2.62 (old)
 Calamares app for version 3.2.62, not used.
 
 Based on [DT-OS calamares](https://gitlab.com/dtos/dtos-pkgbuild/-/tree/main/x86_64/calamares) and [Xerolinux calamares](https://github.com/xerolinux/calamares-app/blob/main/PKGBUILD)
@@ -40,5 +39,4 @@ Welcome app (not configured in Arksys-ISO).
 Source from local files: ./
 
 ## Extra packages
-
-- Eaglemode: a zoomable user interface (ZUI) with file manager, file viewers, games, and more.
+Eaglemode: a zoomable user interface (ZUI) with file manager, file viewers, games, and more.
