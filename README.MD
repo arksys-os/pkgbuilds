@@ -39,4 +39,6 @@ Welcome app (not configured in Arksys-ISO).
 
 Source from local files: ./
 
+## Extra packages
 
+- Eaglemode: a zoomable user interface (ZUI) with file manager, file viewers, games, and more.
