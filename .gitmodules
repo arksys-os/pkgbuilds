@@ -1,0 +1,3 @@
+[submodule "arksys-calamares-config"]
+	path = arksys-calamares-config
+	url = git@github.com:arksys-os/arksys-calamares-config.git
