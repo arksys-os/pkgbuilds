@@ -1,0 +1,24 @@
+pkgbase = eaglemode
+	pkgdesc = Visit almost everything in your PC simply by zooming in
+	pkgver = 0.96.1
+	pkgrel = 1
+	url = http://eaglemode.sourceforge.net/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = perl
+	depends = desktop-file-utils
+	depends = gtk2
+	depends = hicolor-icon-theme
+	depends = libtiff
+	depends = libpng
+	depends = librsvg
+	depends = poppler-glib
+	depends = xdg-utils
+	depends = xine-lib
+	depends = xz
+	optdepends = perl: Fetching stock market info for the emStocks plugin
+	source = https://downloads.sourceforge.net/eaglemode/eaglemode-0.96.1.tar.bz2
+	sha256sums = 14884270c821ccb83b39d72ca2ef61070ee421aa8b55414400a524f6ec1134dc
+
+pkgname = eaglemode
