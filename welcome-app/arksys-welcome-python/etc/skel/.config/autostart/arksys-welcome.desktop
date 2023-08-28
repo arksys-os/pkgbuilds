@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Arksys Welcome
+GenericName=Arksys Welcome
+X-GNOME-FullName=Arksys Welcome
+Comment=Welcome Application for Arksys Installations
+Exec=/usr/local/bin/arksys-welcome
+Icon=arksys-hello
+Terminal=false
+Type=Application
+Categories=GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+Keywords=welcome;tool;
+StartupNotify=true

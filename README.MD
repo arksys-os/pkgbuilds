@@ -33,10 +33,86 @@ Mirrolist of online servers tha contains the database packages of ArkSys, (not c
 
 Source from local files: ./etc/pacman.d/arksys-mirrorlist
 
-## Arksys Welcome
+## Arksys Welcome Python
+Welcome app (not configured in Arksys-ISO).
+
+Source from local files: ./
+
+## Arksys Welcome Rust
 Welcome app (not configured in Arksys-ISO).
 
 Source from local files: ./
 
 ## Extra packages
 Eaglemode: a zoomable user interface (ZUI) with file manager, file viewers, games, and more.
+
+---
+
+# How to develop Linux apps you can use:
+
+With appropriate libraries and frameworks you can use any language as CLI or GUI.
+
+1. Native development:
+
+- CLI (Command-line apps)
+    - Bash
+    - C
+    - C++
+    - Python
+    - Perl
+    - Ruby
+    - Rust
+    - Lua
+    - Go (Golang)
+    - Nim
+    - Haskell
+    - D
+    - Ada
+
+- GUI (Graphical User Interface)
+    - C/C++ (with GTK or Qt)
+    - Python (with GTK or PyQt/PySide)
+    - Java (with JavaFX or Swing)
+    - Vala (with GTK)
+    - Rust (with Druid or Gtk-rs)
+
+2. Cross platform frameworks:
+- Electron: A framework for building cross-platform desktop apps using web technologies (HTML, CSS, JavaScript).
+- Flutter: A UI toolkit by Google for creating natively compiled applications for mobile, web, and desktop from a single codebase.
+- JavaFX: A Java library for building rich graphical user interfaces (GUIs) for desktop applications.
+
+3. Web applicattions:
+- Traditional method.
+    - Front-end (client side)
+        - Markup language: HTML
+        - Style sheet language: CSS
+        - Client programming language: JavaScript
+    - Back-end (server side)
+        - Server programming language: PHP
+        - Database langauge (SQL / NoSQL)
+- Modern methods as [web framework](https://en.wikipedia.org/wiki/Web_framework)
+    - Front-end frameworks
+        - React: JavaScript library for building user interfaces
+            - Next.js: for building server-rendered and client-rendered React apps
+        - Angular: for building complex and feature-rich apps with Typescript
+        - Vue.js: for building user interfaces and apps with JS
+    - Back-end frameworks
+        - NestJS: JS framework for building RESTful APIs, microservices and backend apps
+        - Django: high-level Python framework
+        - Express.js: web framework for Node.js
+        - Ruby on rails: web framework for the Ruby
+    - Full-stack frameworks
+        - Laravel: PHP framework with Model-View-Controller
+        - Meteor: full-stack JavaScript framework
+        - Split boot: Java-based framework
+    - Static-Site-Generators (SSG)
+        - HUGO: SSG written in Go
+        - Jekyll: SSG written in Ruby
+        - Gatsby: SSG that uses React and GraphQL.
+    - [Content Management System (CMS)](https://en.wikipedia.org/wiki/List_of_content_management_systems)
+        - WordPress: Popular and user-friendly blogging platform.
+        - Joomla: Flexible and balanced CMS.
+        - Drupal: Powerful and versatile CMS for complex projects.
+
+> The advantages of web-app is that runs on a web-browser and every OS can a run one. The main disadvantage is that is non natve.
+
