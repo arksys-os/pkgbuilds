@@ -50,7 +50,7 @@ Eaglemode: a zoomable user interface (ZUI) with file manager, file viewers, game
 
 # How to develop Linux apps you can use:
 
-With appropriate libraries and frameworks you can use any language as CLI or GUI.
+With appropriate libraries and frameworks you can use any language as CLI or GUI. Anything that creates a binary file.
 
 1. Native development:
 
@@ -59,6 +59,7 @@ With appropriate libraries and frameworks you can use any language as CLI or GUI
     - C
     - C++
     - Python
+    - Java
     - Perl
     - Ruby
     - Rust
@@ -66,8 +67,6 @@ With appropriate libraries and frameworks you can use any language as CLI or GUI
     - Go (Golang)
     - Nim
     - Haskell
-    - D
-    - Ada
 
 - GUI (Graphical User Interface)
     - C/C++ (with GTK or Qt)
@@ -81,38 +80,6 @@ With appropriate libraries and frameworks you can use any language as CLI or GUI
 - Flutter: A UI toolkit by Google for creating natively compiled applications for mobile, web, and desktop from a single codebase.
 - JavaFX: A Java library for building rich graphical user interfaces (GUIs) for desktop applications.
 
-3. Web applicattions:
-- Traditional method.
-    - Front-end (client side)
-        - Markup language: HTML
-        - Style sheet language: CSS
-        - Client programming language: JavaScript
-    - Back-end (server side)
-        - Server programming language: PHP
-        - Database langauge (SQL / NoSQL)
-- Modern methods as [web framework](https://en.wikipedia.org/wiki/Web_framework)
-    - Front-end frameworks
-        - React: JavaScript library for building user interfaces
-            - Next.js: for building server-rendered and client-rendered React apps
-        - Angular: for building complex and feature-rich apps with Typescript
-        - Vue.js: for building user interfaces and apps with JS
-    - Back-end frameworks
-        - NestJS: JS framework for building RESTful APIs, microservices and backend apps
-        - Django: high-level Python framework
-        - Express.js: web framework for Node.js
-        - Ruby on rails: web framework for the Ruby
-    - Full-stack frameworks
-        - Laravel: PHP framework with Model-View-Controller
-        - Meteor: full-stack JavaScript framework
-        - Split boot: Java-based framework
-    - Static-Site-Generators (SSG)
-        - HUGO: SSG written in Go
-        - Jekyll: SSG written in Ruby
-        - Gatsby: SSG that uses React and GraphQL.
-    - [Content Management System (CMS)](https://en.wikipedia.org/wiki/List_of_content_management_systems)
-        - WordPress: Popular and user-friendly blogging platform.
-        - Joomla: Flexible and balanced CMS.
-        - Drupal: Powerful and versatile CMS for complex projects.
+3. Web applicattions: HTML, CSS, JS as frontend + PHP with SQL as backend
 
 > The advantages of web-app is that runs on a web-browser and every OS can a run one. The main disadvantage is that is non natve.
-
